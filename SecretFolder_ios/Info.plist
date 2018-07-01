@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Bí mật</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleVersion</key>
+	<string>1.1.0</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>268317e9cb081d08cfb91f93b4cc02fc9c4f2797</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>com.catviet.ios.dailyphrase</string>
+		<string>com.catviet.ios.vocabularyenglish</string>
+		<string>com.vietlotus.envndictfree</string>
+		<string>com.ppclink.smartkidsvefree</string>
+		<string>com.catviet.ios.numbervn.lite</string>
+		<string>com.catviet.ios.abctiengviet.lite</string>
+		<string>com.catviet.ios.ghephinh.lite</string>
+		<string>com.vietlotus.lichvietfree</string>
+		<string>com.vietlotus.lichvannien</string>
+		<string>com.vietlotus.chinesechessfree</string>
+		<string>com.catviet.wallpapervn</string>
+		<string>com.avalo.gameamnhac</string>
+		<string>com.vietlotus.vietradiofree</string>
+		<string>com.vkids.ios.smartkidsenglish.lite</string>
+		<string>com.vkids.ios.abccoloring.lite</string>
+		<string>com.vkids.ios.kidsnumberlearning.lite</string>
+		<string>com.vkids.ios.alphabet</string>
+		<string>com.catviet.ios.englishpersian.dict</string>
+		<string>com.avalo.ios.englishtospanish</string>
+		<string>com.catviet.ios.frenchsmartkids</string>
+		<string>com.catviet.brazilradiofree</string>
+		<string>com.catviet.ios.frenchenglish.dict</string>
+		<string>com.tara.arabicmusickids</string>
+		<string>com.catviet.radio.german</string>
+		<string>com.catviet.ios.englisharabicgreen.dict</string>
+		<string>com.tara.ios.radiojapanese</string>
+		<string>com.tara.ios.japaneseenglish.dictionary</string>
+		<string>com.tara.philippinesradio</string>
+		<string>com.tara.ios.englishlistening.jp</string>
+		<string>com.tara.ios.learnjapanese</string>
+		<string>com.vietlotus.germantvpro</string>
+		<string>com.tara.ios.englishbengali.dict</string>
+		<string>com.catviet.ios.smartkidsarabic</string>
+		<string>com.catviet.ios.arabicradio</string>
+		<string>com.catviet.ios.newline98</string>
+		<string>com.catviet.ios.hocnguphap</string>
+		<string>com.catviet.ios.saudimusictube</string>
+		<string>com.catviet.ios.arabicdailyphrase</string>
+		<string>com.catviet.ios.beentogether</string>
+		<string>com.catviet.ios.arabicdict</string>
+		<string>com.catviet.ios.tudienvietnhat</string>
+		<string>com.catviet.ios.tudienhanviet</string>
+		<string>com.catviet.ios.beentogether</string>
+		<string>com.ppclink.games.pikachunative</string>
+		<string>com.ppclink.games.pikachu2017</string>
+		<string>com.catviet.ios.englishlistening</string>
+		<string>com.catviet.ios.hocnguphap</string>
+		<string>com.kyx.ppclink.line98</string>
+		<string>com.kyx.ios.pikachu</string>
+		<string>com.catviet.ios.drivingtest</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Allows you to use media</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allows you to use camera</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Use your contacts</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Use your microphone</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Allows you to add photos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allows you to add photo</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

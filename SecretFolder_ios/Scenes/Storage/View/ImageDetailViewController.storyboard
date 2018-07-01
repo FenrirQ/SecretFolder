@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eQ5-b7-xtH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Image Detail View Controller-->
+        <scene sceneID="fOH-IE-Ad5">
+            <objects>
+                <viewController storyboardIdentifier="ImageDetailViewController" hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eQ5-b7-xtH" customClass="ImageDetailViewController" customModule="SecretFolder_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nUj-Lh-IqO"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Ve-nq-crO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6TP-VM-cKh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ea-HE-rVO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aJE-av-UM2">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="DRD-t8-lWt" appends="YES" id="K3W-D3-o7M"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="playIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Nf3-f5-Mc3">
+                                        <rect key="frame" x="150" y="296" width="75" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Nf3-f5-Mc3" secondAttribute="height" id="8xg-Cd-3jh"/>
+                                            <constraint firstAttribute="width" constant="75" id="TvJ-OR-eBL"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="aJE-av-UM2" secondAttribute="trailing" id="3ot-ws-6TA"/>
+                                    <constraint firstAttribute="bottom" secondItem="aJE-av-UM2" secondAttribute="bottom" id="9DK-cN-x2D"/>
+                                    <constraint firstItem="aJE-av-UM2" firstAttribute="top" secondItem="2Ea-HE-rVO" secondAttribute="top" id="MEy-C9-BVE"/>
+                                    <constraint firstItem="aJE-av-UM2" firstAttribute="leading" secondItem="2Ea-HE-rVO" secondAttribute="leading" id="OCB-nu-G8f"/>
+                                    <constraint firstItem="Nf3-f5-Mc3" firstAttribute="centerX" secondItem="2Ea-HE-rVO" secondAttribute="centerX" id="ohv-wP-98h"/>
+                                    <constraint firstItem="Nf3-f5-Mc3" firstAttribute="centerY" secondItem="2Ea-HE-rVO" secondAttribute="centerY" id="zXm-5B-yrt"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="3Ve-nq-crO" firstAttribute="top" secondItem="2Ea-HE-rVO" secondAttribute="bottom" id="FoF-vZ-rfd"/>
+                            <constraint firstItem="2Ea-HE-rVO" firstAttribute="top" secondItem="nUj-Lh-IqO" secondAttribute="bottom" constant="-20" id="TeM-w6-K3C"/>
+                            <constraint firstAttribute="trailing" secondItem="2Ea-HE-rVO" secondAttribute="trailing" id="XFM-xN-eoc"/>
+                            <constraint firstItem="2Ea-HE-rVO" firstAttribute="leading" secondItem="6TP-VM-cKh" secondAttribute="leading" id="dNJ-Pp-gzt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="aJE-av-UM2" id="Hhn-0Y-603"/>
+                        <outlet property="playIconImage" destination="Nf3-f5-Mc3" id="nY7-Zd-cZ0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pXK-qD-jgb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="DRD-t8-lWt">
+                    <connections>
+                        <action selector="onPlayVideo:" destination="eQ5-b7-xtH" id="JKD-Ku-jRM"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1868" y="-93.103448275862078"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="playIcon" width="75" height="75"/>
+    </resources>
+</document>
